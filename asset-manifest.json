@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hireforit/static/css/main.6d931d0f.css",
-    "main.js": "/hireforit/static/js/main.1e850fba.js",
-    "static/js/453.580cde45.chunk.js": "/hireforit/static/js/453.580cde45.chunk.js",
-    "index.html": "/hireforit/index.html",
-    "main.6d931d0f.css.map": "/hireforit/static/css/main.6d931d0f.css.map",
-    "main.1e850fba.js.map": "/hireforit/static/js/main.1e850fba.js.map",
-    "453.580cde45.chunk.js.map": "/hireforit/static/js/453.580cde45.chunk.js.map"
+    "main.css": "/hireforit.github.io/static/css/main.6d931d0f.css",
+    "main.js": "/hireforit.github.io/static/js/main.b8c83d6d.js",
+    "static/js/453.580cde45.chunk.js": "/hireforit.github.io/static/js/453.580cde45.chunk.js",
+    "index.html": "/hireforit.github.io/index.html",
+    "main.6d931d0f.css.map": "/hireforit.github.io/static/css/main.6d931d0f.css.map",
+    "main.b8c83d6d.js.map": "/hireforit.github.io/static/js/main.b8c83d6d.js.map",
+    "453.580cde45.chunk.js.map": "/hireforit.github.io/static/js/453.580cde45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d931d0f.css",
-    "static/js/main.1e850fba.js"
+    "static/js/main.b8c83d6d.js"
   ]
 }
