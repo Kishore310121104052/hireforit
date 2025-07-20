@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.centered-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.main-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hire-text {
+  font-size: 64px;
+  font-weight: bold;
+  color: #002060;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.subtext {
+  font-size: 30px;
+  color: #f7b500;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.contact-btn {
+  border: 1px solid #a855f7;
+  border-radius: 999px;
+  padding: 16px 36px;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+.hero h2 {
+  font-size: 120px;
+  font-weight: 700;
+  margin: 40px 0 20px;
+  line-height: 1.0;
+  margin-bottom: 80px;
+}
+
+.hero p {
+  font-size: 50px;
+  margin-bottom: 70px;
+  color: #444;
+  line-height: 0.1;
+}
+
+.cta-btn {
+  background-color: #ffeb00;
+  color: black;
+  padding: 16px 38px;
+  border: none;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.banner {
+  background-color: #000;
+  color: white;
+  padding: 60px 40px;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+
+.banner .symbol {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.banner h1 {
+  font-size: 300px;
+  margin-bottom: -120px;
+}
+
+.banner p {
+  font-size: 75px;
+  opacity: 0.85;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.contact-btn:hover {
+  background-color: #333;
+}
+
+.page {
+  padding: 40px;
+  text-align: center;
+}
+
+.custom-symbol {
+  width: 90px;
+  height: auto;
+  margin-bottom: -250px;
+}
+
+/* -----------------------------------
+   ✅ Responsive Design Adjustments
+----------------------------------- */
+
+@media (max-width: 1200px) {
+  .hero h2 {
+    font-size: 90px;
+  }
+
+  .hero p {
+    font-size: 40px;
+  }
+
+  .banner h1 {
+    font-size: 200px;
+    margin-bottom: -60px;
+  }
+
+  .banner p {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-logo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .hire-text {
+    font-size: 48px;
+  }
+
+  .subtext {
+    font-size: 22px;
+  }
+
+  .contact-btn {
+    padding: 12px 28px;
+    font-size: 18px;
+  }
+
+  .hero h2 {
+    font-size: 60px;
+  }
+
+  .hero p {
+    font-size: 28px;
+  }
+
+  .cta-btn {
+    padding: 14px 32px;
+    font-size: 18px;
+  }
+
+  .banner h1 {
+    font-size: 120px;
+    margin-bottom: -40px;
+  }
+
+  .banner p {
+    font-size: 32px;
+  }
+
+  .custom-symbol {
+    width: 60px;
+    margin-bottom: -180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .centered-logo-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hire-text {
+    font-size: 38px;
+  }
+
+  .subtext {
+    font-size: 18px;
+  }
+
+  .contact-btn {
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+
+  .hero h2 {
+    font-size: 42px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .cta-btn {
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+
+  .banner h1 {
+    font-size: 90px;
+    margin-bottom: -30px;
+  }
+
+  .banner p {
+    font-size: 24px;
+  }
+
+  .custom-symbol {
+    width: 40px;
+    margin-bottom: -120px;
+  }
+}
